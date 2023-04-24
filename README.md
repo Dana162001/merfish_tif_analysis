@@ -5,11 +5,18 @@ Extracting and analysing MERFISh tif files into multiple channel images for bett
 
 1. Convert from original .dax to .tif file 
 
+```
+python dax_converter.py input/path/with/.das_and_.inf/files
+```
+* conda install -c conda-forge tifffile
+* conda install -c anaconda numpy
+
+(Optional) copy files from original dir to the smaller dir with copy_files.sh
 	
 2. Extraction of 3 border staining + DAPI
 
 ```
-...
+-i 
 ```
 
 

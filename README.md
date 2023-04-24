@@ -16,20 +16,20 @@ python dax_converter.py input/path/with/.das_and_.inf/files
 2. Extraction of 3 border staining + DAPI
 
 ```
--i 
+python extract_tiff_images.py --i /input/dir/with/.tif/files --o output/empty/dir 
 ```
 
 
 3. Split 1 .tif into 4 different channels
 
 ```
-...
+python split_tif.py -i /input/dir/with/.tif/files/4_images -o output/empty/dir/for/splited/files 
 ```
 
 4. Add colors and merge together 
 
 ```
-...
+python merged_tif.py -i /input/dir/with/splited/files -o output/empty/dir/for/merged/files 
 ```
 
 5. (Optional) add export annotation of masks into QuPath

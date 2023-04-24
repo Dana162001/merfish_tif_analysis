@@ -7,7 +7,7 @@ Extracting and analysing MERFISh tif files into multiple channel images for bett
 
 1. Convert from original .dax to .tif file 
 
-* Dependencies:
+Dependencies:
 * conda install -c conda-forge tifffile
 * conda install -c anaconda numpy
 

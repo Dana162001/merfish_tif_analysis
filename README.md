@@ -3,13 +3,17 @@ Extracting and analysing MERFISh tif files into multiple channel images for bett
 
 # Workflow
 
+## Better to create new conda env for this project
+
 1. Convert from original .dax to .tif file 
+
+* Dependencies:
+* conda install -c conda-forge tifffile
+* conda install -c anaconda numpy
 
 ```
 python dax_converter.py input/path/with/.das_and_.inf/files
 ```
-* conda install -c conda-forge tifffile
-* conda install -c anaconda numpy
 
 (Optional) copy files from original dir to the smaller dir with copy_files.sh
 	

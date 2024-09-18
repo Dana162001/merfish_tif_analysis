@@ -1,5 +1,5 @@
 # MERFISH images data analysis
-Extracting and analysing MERFISh tif files into multiple channel images for better cellpose segmentation 
+Extracting and analysing MERFISH tif files into multiple channel images for better cellpose segmentation 
 
 # Workflow
 
